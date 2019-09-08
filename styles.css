@@ -1,0 +1,360 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    padding: 80px;
+    color: #1e1e1e;
+    box-sizing: border-box;
+}
+
+.welcome-head {
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    background-color: yellow;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+
+}
+
+.welcome-head .greeting {
+    position: relative;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    top: 20px;
+}
+
+.welcome-head .name {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center; 
+}
+
+.container-two{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.container-two .profile-box {
+    position: relative;
+    width: 80%;
+    height: 130px;
+    padding: 10px 20px; 
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.profile-box .profile{
+    position: relative;
+    line-height: 24px;
+}
+
+.container-two .avatar {
+    position: relative;
+    width: 20%;
+    height: 150px;
+    border-radius: 10px;
+    background: url("https://res.cloudinary.com/sandyahmed/image/upload/v1566678987/profile_pix_laewrv.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.mid-section {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mid-section .left-mid {
+    position: relative;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.left-mid .experience-card {
+    position: relative;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.left-mid .experience-card .card-name {
+    position: relative;
+    text-transform: uppercase;
+    color: darkslateblue;
+    font-size: 12px; 
+}
+
+.left-mid .experience-card .exp-list {
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.left-mid .exp-list .exp1 {
+    position: relative;
+}
+
+.left-mid .exp1 .exp {
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+
+.left-mid .exp1 .office {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.left-mid .exp1 .date {
+    position: relative;
+    font-size: 8px;
+    margin-top: 5px;
+}
+
+.left-mid .exp1 .work-list {
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.left-mid .exp1 .work-list .list {
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.left-mid .exp-list .exp2 {
+    position: relative;
+}
+
+.left-mid .exp2 .exp {
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+
+.left-mid .exp2 .office {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.left-mid .exp2 .date {
+    position: relative;
+    font-size: 8px;
+    margin-top: 5px;
+}
+
+.left-mid .exp2 .work-list {
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.left-mid .exp2 .work-list .list {
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.left-mid .exp-list .exp3 {
+    position: relative;
+}
+
+.left-mid .exp3 .exp {
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+
+.left-mid .exp3 .office {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.left-mid .exp3 .date {
+    position: relative;
+    font-size: 8px;
+    margin-top: 5px;
+}
+
+.left-mid .exp3 .work-list {
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.left-mid .exp3 .work-list .list {
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.left-mid .skill-card {
+    position: relative;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.left-mid .skill-card .card-name {
+    position: relative;
+    text-transform: uppercase;
+    color: darkslateblue;
+    font-size: 12px; 
+}
+
+.left-mid .skill-card .skill-list {
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.left-mid .skill-card .skill-list .skill {
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.mid-section .right-mid {
+    position: relative;
+    width: 50%;
+}
+
+.right-mid .edu-card {
+    position: relative;
+    width: 100%;
+    height: 30%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.right-mid .edu-card .card-name {
+    position: relative;
+    text-transform: uppercase;
+    color: darkslateblue;
+    font-size: 12px; 
+}
+
+.right-mid .edu-card .edu-list {
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.right-mid .edu-list .edu {
+    position: relative;
+}
+
+.right-mid .edu .edu-name {
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+
+.right-mid .edu .edu-degree {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.right-mid .edu .date {
+    position: relative;
+    font-size: 8px;
+    margin-top: 5px;
+}
+
+.right-mid .cert-card {
+    position: relative;
+    width: 100%;
+    height: 45%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.right-mid .cert-card .card-name {
+    position: relative;
+    text-transform: uppercase;
+    color: darkslateblue;
+    font-size: 12px; 
+}
+
+.right-mid .cert-card .cert-list {
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.right-mid .cert-list .cert {
+    position: relative;
+}
+
+.right-mid .cert .cert-name {
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+
+.right-mid .cert .issuer {
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.right-mid .cert .date {
+    position: relative;
+    font-size: 8px;
+    margin-top: 5px;
+}
+
+.right-mid .contact-card {
+    position: relative;
+    width: 100%;
+    height: 21%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.right-mid .contact-card .card-name {
+    position: relative;
+    text-transform: uppercase;
+    color: darkslateblue;
+    font-size: 12px; 
+}
+
+.right-mid .contact-card .contact-list {
+    display: flex;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.right-mid .contact-list .contact {
+    position: relative;
+    margin-right: 10px;
+}
