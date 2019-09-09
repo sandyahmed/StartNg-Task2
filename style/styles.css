@@ -360,3 +360,106 @@ body {
     margin-right: 10px;
 }
 
+.right-mid .msg-card {
+    position: relative;
+    width: 100%;
+    /* height: 21%; */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.right-mid .msg-card .card-name {
+    position: relative;
+    text-transform: uppercase;
+    color: darkslateblue;
+    font-size: 12px; 
+}
+
+.right-mid .msg-card .text-field {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    border: transparent;
+    border-bottom: 2px solid #c9c9c9;
+	font-size: 14px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.right-mid .msg-card .text-field::placeholder {
+	font-weight: 200;
+	color: #c9c9c9;
+}
+
+.right-mid .msg-card #msg-box {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    resize: none;
+}
+
+.right-mid .msg-card #msg-box::placeholder {
+	font-weight: 200;
+	color: #c9c9c9;
+}
+
+.right-mid .msg-card .submit-btn {
+    position: relative;
+    border: transparent;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: darkslateblue;
+	color: white;
+	cursor: pointer;
+    font-weight: 600;
+}
+
+.right-mid .msg-card .submit-btn:hover {
+    background-color: yellow;
+	color: #1e1e1e;
+}
+
+.right-mid .msg-card .text-field::placeholder {
+	font-weight: 200;
+	color: #c9c9c9;
+}
+
+.right-mid .msg-card #msg-box {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    resize: none;
+}
+
+.right-mid .msg-card #msg-box::placeholder {
+	font-weight: 200;
+	color: #c9c9c9;
+}
+
+.right-mid .msg-card .submit-btn {
+    position: relative;
+    border: transparent;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: darkslateblue;
+	color: white;
+	cursor: pointer;
+    font-weight: 600;
+}
+
+.right-mid .msg-card .submit-btn:hover {
+    background-color: yellow;
+	color: #1e1e1e;
+}
+
